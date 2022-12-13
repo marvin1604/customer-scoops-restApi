@@ -6,7 +6,7 @@
     "node": "^19.2.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node src/server.js"
   },
   "name": "customer-scoops-restapi",
   "version": "1.0.0",
