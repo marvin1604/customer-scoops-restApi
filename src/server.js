@@ -9,6 +9,9 @@ app.use(cors());
 const routes = require("./routes/index.router")
 app.use("/api", routes)
 
+app.get("/api", (req,res)=> res.send("Ingresa a Industrias"))
+app.get("/api/pong", (req,res)=> res.send("ping"))
+app.get("/ping", (req,res)=> res.send("pong"))
 
 
 app.listen(process.env.PORT || 3000, () =>{
