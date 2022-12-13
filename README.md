@@ -1,7 +1,7 @@
 # Customer Scoops Api - Rest
 Esta Api se crea para poder ser consumida por la parte frontend de Customer Scoop Aplication cuyo repositorio es:  [Customer Scoop](https://github.com/marvin1604/customer-scoops)
 
-##tecnologías:
+## tecnologías:
 
 - NodeJs
 - Express
